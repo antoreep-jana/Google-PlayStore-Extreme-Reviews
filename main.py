@@ -9,8 +9,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 
 
 print("Enter the URL of app:\n")
-#webpage = input()
-webpage = 'https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_IN&gl=US'
+webpage = input()
+### example -> webpage = 'https://play.google.com/store/apps/details?id=com.whatsapp&hl=en_IN&gl=US'
 webpage = webpage + '&showAllReviews=true'
 
 from selenium import webdriver
